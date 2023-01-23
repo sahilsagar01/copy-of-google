@@ -17,10 +17,9 @@ body {
     left: 4px;
 }
 .searchbar1 {
-    margin: 0px;
     border-radius: 50px;
     outline: 0;
-    height: 40px;
+    height: 45px;
     margin: auto;
     width: 40%;
     position: relative;
@@ -30,6 +29,9 @@ body {
     outline: none;
     box-shadow: 0 2px 10px -7px #000;
     font-size: 16px;
+}
+.searchbar1 {
+    margin: 0px 0px 25px;
 }
 .account {
     border-radius: 50%;
@@ -74,4 +76,29 @@ a {
     position: absolute;
     top: 10px;
     padding: 0px 2px 1px 0px;
+}
+.container {
+    display: inline-block;
+}
+.div-container {
+    display: inline-block;
+}
+.icon-box {
+    display: inline-block;
+    background-color: rgb(235, 235, 235);
+    border-style: solid;
+    border-radius: 50%;
+    border: none;
+}
+.add-button {
+    height: 20px;
+    width: 20px;
+    padding: 12px 12px;
+    position: relative;
+    top: 2px;
+}
+.add-link {
+    margin: 10px 15px 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
 }
