@@ -21,7 +21,7 @@ body {
     outline: 0;
     height: 45px;
     margin: auto;
-    width: 40%;
+    width: 43%;
     position: relative;
     right: 20px;
     border: 1px solid #d5d4d4;
@@ -119,4 +119,7 @@ a {
 }
 .link-container {
     padding: 20px 0px 0px;
+}
+a:hover {
+    text-decoration: underline;
 }
